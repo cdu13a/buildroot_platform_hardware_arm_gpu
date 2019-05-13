@@ -26,8 +26,8 @@
 #include <linux/amlogic/aml_thermal_hw.h>
 #endif
 #if defined(CONFIG_AMLOGIC_GPU_THERMAL)
-#include <linux/gpu_cooling.h>
-#include <linux/gpucore_cooling.h>
+#include <linux/amlogic/gpu_cooling.h>
+#include <linux/amlogic/gpucore_cooling.h>
 #include <linux/amlogic/aml_thermal_hw.h>
 #endif
 
